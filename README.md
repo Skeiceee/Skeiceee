@@ -29,7 +29,7 @@
     
 ?>
 ```
-```Shell
+```console
 PS C:\Users\Victor Nuñez\Desktop> php .\Biografia.php
 -⚡ Quick bio: : Soy una especie de bmx-monsteradicto-amantedelacomida-trap-rap-coder-programmer-amantedelosgatos. 
 -🌱 Actualmente estoy aprendiendo: : Estoy estudiando Data Science, actualmente hago un Diplomado de Data Science en la USM (Universidad Técnica Federico Santa María) 
