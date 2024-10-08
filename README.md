@@ -1,6 +1,6 @@
 # Victor Nuñez
 
-<h2 align="center">Acerca de mi!</h2>
+<h2 align="center">Acerca de mi</h2>
 
 ```php
 <?php
