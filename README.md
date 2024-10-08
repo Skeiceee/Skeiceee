@@ -3,31 +3,30 @@
 <h2 align="center">About me</h2>
 
 ```php
-package main
+<?php
+    class Biografia {
+        public function main(){
+            $bio = $this->getBio();
+    
+            foreach ($bio as $key => $item) {
+                echo "$key : $item \t\n";
+            }
+        }
+        public function getBio(){
+            $bio = [
+                "-⚡ Quick bio:" => "Soy una especie de bmx-monsteradicto-amantedelacomida-trap-rap-coder-programmer-amantedelosgatos.",
+                "-🌱 Actualmente estoy aprendiendo:" => "Estoy estudiando Data Science, actualmente hago un Diplomado de Data Science en la USM (Universidad Técnica Federico Santa María)",
+                "-🤔 Estoy buscando ayuda con" => "Cualquier cosa relacionada con lo que estoy aprendiendo actualmente 😅",
+                "-💬 Pregúntame sobre" => "Python, PHP, Laravel, SQL, Diseño y arquitectura de software, Desarrollo web y SEO",
+            ];  
+            return $bio;
+        }
+    }
 
-import (
-	"fmt"
-)
-
-type Bio map[string]string
-
-func main() {
-	for k, v := range GetBio() {
-		fmt.Printf("%+v: %+v\n", k, v)
-	}
-}
-
-func GetBio() Bio {
-	return Bio{
-		"- ⚡ Quick bio:":                    "A kind of metalHead-synthWave-cyberPunk-melomaniac-gearAddict-amateurMusician-traveler-foodLover-gamer-coder-programmer-catLover-sportsAficionado hybrid",
-		"- 🔭 I’m currently working on":      "Tredicom as a Senior Software Developer --- UAdeC as a Part Time Teacher",
-		"- 🌱 I’m currently learning":        "Golang, MongoDB, RabbitMQ, K8s, GCP (Tech stack from my company) --- Sharpening my Front End Skills for the MERN stack (Personal goal)",
-		"- 👯 I’m looking to collaborate on": "Python, Golang and Docker related projects",
-		"- 🤔 I’m looking for help with":     "Anything related to what I am currently learning 😅",
-		"- 💬 Ask me about":                  "Python, PHP, Laravel, SQL, Software Design & Architecture, Web-Dev and SEO",
-		"- 📫 How to reach me:":              "https://github.com/AnhellO#you-can-reach-me-at-alien",
-	}
-}
+    $biografia = new Biografia();
+    $biografia->main();
+    
+?>
 ```
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Skeiceee&theme=dark)
