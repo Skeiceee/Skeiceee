@@ -12,6 +12,7 @@
                 echo "$key : $item \t\n";
             }
         }
+
         public function getBio(){
             $bio = [
                 "-⚡ Quick bio:" => "Soy una especie de bmx-monsteradicto-amantedelacomida-trap-rap-coder-programmer-amantedelosgatos.",
